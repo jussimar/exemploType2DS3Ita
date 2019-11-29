@@ -1,15 +1,20 @@
 namespace empresa{
     class Pessoa{
+        //Atributos - Caracteristicas da classe
         private _nome: string;
         private _idade: number;
         private _cpf: string;
 
+        //metodos são as ações da classe
         public getNome(): string{
             return this._nome;
         }
 
         public setNome(nome: string): void{
-            this._nome = nome;
+            if(nome != ""){
+                this._nome = nome;
+            }
+           
         }
 
         public getIdade(): string{
