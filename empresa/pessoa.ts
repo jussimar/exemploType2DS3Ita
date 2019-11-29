@@ -1,5 +1,5 @@
 namespace empresa{
-    class Pessoa{
+    export class Pessoa{
         //Atributos - Caracteristicas da classe
         private _nome: string;
         private _idade: number;
